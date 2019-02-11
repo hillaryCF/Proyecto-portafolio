@@ -1,35 +1,39 @@
-body{
-  font-family: 'Montserrat', sans-serif;
+body {
+  font-family: "Montserrat", sans-serif;
   margin: 0;
-
 }
+
 .clearfix::after {
   display: block;
   content: "";
   clear: both;
-  
 }
+
 .principal-container {
   max-width: 1200px;
   margin: 0 auto;
 }
+
 a {
   text-decoration: none;
 }
+
 .principal-menue {
   float: right;
   list-style: none;
   margin: 0;
 }
+
 .menue-list {
   display: inline;
   margin-right: 15px;
 }
-.logo-hillary{
+
+.logo-hillary {
   max-width: 5%;
 }
 
-.principal-tittle{
+.principal-tittle {
   margin: 0;
   margin-top: 20px;
   margin-left: 100px;
@@ -37,36 +41,42 @@ a {
   margin-top: 10px;
   color: bisque;
 }
+
 .wrapper-principal {
   width: 100%;
   height: 60vh;
   padding-bottom: 5%;
-  background-image: url('../img/moon.jpg');
+  background-image: url("../img/moon.jpg");
   background-repeat: no-repeat;
   object-fit: cover;
   background-size: 50%;
   background-position: right;
   background-color: black;
-  
 }
+
 #aboutme {
   margin-top: 5%;
 }
+
 .info-wrapper {
   max-width: 100%;
   padding-top: 10%;
 }
+
 .contact-line {
-  border:1px solid green;
+  border: 1px solid green;
   margin-top: 40px;
 }
-hr{
+
+hr {
   border: 1px solid #665a72;
   margin: 0;
 }
+
 .second-tittle {
   text-align: center;
 }
+
 .work-column-left {
   max-width: 45%;
   float: left;
@@ -75,49 +85,55 @@ hr{
   height: 60%;
 }
 
-
 .image-work {
   max-width: 100%;
   object-fit: cover;
   height: 100%;
 }
+
 .work-column-right {
   max-width: 45%;
   float: right;
   margin-top: 80px;
   height: 60%;
 }
+
 h3 {
   margin: 0;
 }
+
 .e-mail {
   padding-top: 20px;
-
 }
+
 .autor-icon {
   margin-top: 10px;
   font-size: 10px;
   margin: 0;
-  
 }
+
 .icons {
   max-width: 40%;
   text-align: center;
-  padding-left: 30%; 
+  padding-left: 30%;
   padding-bottom: 3px;
 }
+
 .icon-image {
   max-width: 9.5%;
   padding-bottom: 10px;
 }
+
 #works {
   margin-top: 5%;
 }
+
 li:hover a {
   text-decoration-line: line-through;
   text-decoration-color: purple;
 }
-.wrapper{
+
+.wrapper {
   position: fixed;
   right: 0px;
   left: 0px;
@@ -125,3 +141,5 @@ li:hover a {
   padding-top: 15px;
   padding-right: 50px;
 }
+
+/*# sourceMappingURL=style.css.map */
