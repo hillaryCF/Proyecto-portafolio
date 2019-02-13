@@ -1,0 +1,41 @@
+.principal-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.wrapper {
+  position: fixed;
+  right: 0px;
+  left: 0px;
+  top:0;
+  padding-top: 15px;
+  background-color: black;
+}
+.wrapper-principal {
+  min-height: 62vh;
+  background-image: url('../../img/moon.jpg');
+  background-repeat: no-repeat;
+  object-fit: cover;
+  background-size: 40%;
+  background-position: right;
+  background-color: greenyellow;
+  margin-top: 100px;
+}
+#works {
+  margin-top: 5%;
+}
+.work-column-left {
+	max-width: 45%;
+	float: left;
+	margin-right: 3px;
+	margin-top: 40px;
+	height: 60%;
+}
+.work-column-right {
+	max-width: 45%;
+	float: right;
+	margin-top: 80px;
+	height: 60%;
+}
+.info-wrapper {
+  padding-top: 50px;
+}

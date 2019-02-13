@@ -1,4 +1,4 @@
-const words = ['web designer and developer'];
+const words = ['Web designer and developer'];
 const contenedor = document.getElementById('profession');
 let content = contenedor.innerHTML;
 let condicional = true;
