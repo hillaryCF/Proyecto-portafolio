@@ -11,17 +11,18 @@
   background-color: black;
 }
 .wrapper-principal {
-  min-height: 62vh;
+  min-height: 82vh;
   background-image: url('../../img/moon.jpg');
   background-repeat: no-repeat;
   object-fit: cover;
   background-size: 40%;
   background-position: right;
-  background-color: greenyellow;
+  background-color: $green2;
   margin-top: 100px;
 }
-#works {
-  margin-top: 5%;
+#project {
+  margin-top: 90px;
+  padding-bottom: 70px;
 }
 .work-column-left {
 	max-width: 45%;

@@ -10,9 +10,7 @@ clear: both;
 a {
   text-decoration: none;
 }
-#aboutme {
-  margin-top: 5%;
-}
+
 hr{
   margin: 0;
 }
@@ -22,17 +20,17 @@ h3 {
 li {
   list-style: none;
 }
-
-
 .principal-tittle {
-  color: black;
+  color: white;
   margin: 0;
   margin-left: 100px;
   font-size: 43px;
   max-width: 35%;
-  padding-top: 32px;
-
+  padding-top: 60px;
 }
-.second-tittle {
+.tittle-aboutme {
+  text-align: center;
+}
+.tittle-project{
   text-align: center;
 }
