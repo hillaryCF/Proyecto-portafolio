@@ -17,7 +17,7 @@
   object-fit: cover;
   background-size: 40%;
   background-position: right;
-  background-color: #FFC500;
+  background-color: #DFA000;
   margin-top: 100px; }
 
 #project {
@@ -75,6 +75,10 @@ li {
 .tittle-project {
   text-align: center; }
 
+.hello {
+  font-size: 60px;
+  font-weight: bold; }
+
 .logo-hillary {
   padding: 4px 0 4px 50px;
   max-width: 65px; }
@@ -93,19 +97,18 @@ li {
   margin: 0; }
 
 .icons {
-  max-width: 40%;
+  max-width: 32%;
   text-align: center;
-  padding-left: 30%;
-  padding-bottom: 3px;
-  margin-top: -20px; }
+  padding-left: 32%; }
 
 .icon-image {
   max-width: 9.5%;
   padding-bottom: 10px; }
 
 #contact {
-  background-color: #F3001C;
-  color: white; }
+  background-color: #DFA000;
+  color: white;
+  padding-top: 40px; }
 
 .principal-menue {
   float: right;
