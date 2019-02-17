@@ -34,3 +34,10 @@ li {
 .tittle-aboutme {
   text-align: center;
 }
+.tittle-project {
+  font-size: 25px;
+  color: black;
+}
+.tittle-project:hover{
+  color: $pink;
+}

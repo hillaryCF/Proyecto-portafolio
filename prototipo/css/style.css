@@ -30,15 +30,16 @@
 .work-column-left {
   float: left;
   height: 45%;
-  max-width: 40%;
+  max-width: 38%;
   margin-top: 10px;
   margin-left: 100px;
+  margin-bottom: 50px;
 }
 
 .work-column-right {
   float: right;
   height: 60%;
-  max-width: 40%;
+  max-width: 38%;
   margin-top: 80px;
   margin-right: 100px;
 }
@@ -101,6 +102,15 @@ li {
 
 .tittle-aboutme {
   text-align: center;
+}
+
+.tittle-project {
+  font-size: 25px;
+  color: black;
+}
+
+.tittle-project:hover {
+  color: #EF0038;
 }
 
 .logo-hillary {
