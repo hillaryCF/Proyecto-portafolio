@@ -1,17 +1,18 @@
-.principal-menue {
-  float: right;
-  list-style: none;
-  padding-right: 50px;
-  margin-top: 27px;
+li:hover a {
+  text-decoration-line: line-through;
+  text-decoration-color: black;
 }
+.menue {
+  color: black;
+}
+
 .menue-list {
   display: inline;
   margin-right: 15px;
 }
-.menue {
-  color: white;
-}
-li:hover a {
-  text-decoration-line: line-through;
-  text-decoration-color: white;
+.principal-menue {
+  float: right;
+  list-style: none;
+  margin-top: 27px;
+  padding-right: 50px;
 }

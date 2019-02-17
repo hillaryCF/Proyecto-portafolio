@@ -1,42 +1,52 @@
+.personal-info {
+  max-width: 65%;
+  padding-top: 50px;
+}
+.personal-skills {
+  color: white;
+  background: $pink;
+}
 .principal-container {
-  max-width: 1200px;
   margin: 0 auto;
-}
-.wrapper {
-  position: fixed;
-  right: 0px;
-  left: 0px;
-  top:0;
-  padding-top: 15px;
-  background-color: black;
-}
-.wrapper-principal {
-  min-height: 60vh;
-  background-image: url('../../img/moon.jpg');
-  background-repeat: no-repeat;
-  object-fit: cover;
-  background-size: 40%;
-  background-position: right;
-  background-color: $orange;
-  margin-top: 100px;
+  max-width: 1200px;
 }
 #project {
   margin-top: 90px;
-  padding-bottom: 70px;
+  padding-bottom: 10px;
+}
+.skills {
+  float: left;
+  max-width: 30%;
+  margin-top: 60px;
+  margin-right: 40px;
+  padding-bottom: 60px;
+  text-align: center;
 }
 .work-column-left {
-	max-width: 45%;
-	float: left;
-	margin-right: 3px;
-	margin-top: 40px;
-	height: 60%;
+  float: left;
+  height: 45%;
+  max-width: 40%;
+  margin-top: 10px;
+  margin-left: 100px;
 }
 .work-column-right {
-	max-width: 45%;
-	float: right;
-	margin-top: 80px;
-	height: 60%;
+  float: right;
+  height: 60%;
+	max-width: 40%;
+  margin-top: 80px;
+  margin-right: 100px;
 }
-.info-wrapper {
-  padding-top: 50px;
+.wrapper {
+  background: white;
+  left: 0px;
+  padding-top: 15px;
+  position: fixed;
+  right: 0px;
+  top:0;
 }
+.wrapper-principal {
+  background: linear-gradient(90deg, $pink, $orange, $yellow);
+  margin-top: 100px;
+  min-height: 65vh;
+}
+

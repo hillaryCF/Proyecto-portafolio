@@ -1,130 +1,179 @@
+.personal-info {
+  max-width: 65%;
+  padding-top: 50px;
+}
+
+.personal-skills {
+  color: white;
+  background: #EF0038;
+}
+
 .principal-container {
+  margin: 0 auto;
   max-width: 1200px;
-  margin: 0 auto; }
-
-.wrapper {
-  position: fixed;
-  right: 0px;
-  left: 0px;
-  top: 0;
-  padding-top: 15px;
-  background-color: black; }
-
-.wrapper-principal {
-  min-height: 60vh;
-  background-image: url("../../img/moon.jpg");
-  background-repeat: no-repeat;
-  object-fit: cover;
-  background-size: 40%;
-  background-position: right;
-  background-color: #DFA000;
-  margin-top: 100px; }
+}
 
 #project {
   margin-top: 90px;
-  padding-bottom: 70px; }
+  padding-bottom: 10px;
+}
+
+.skills {
+  float: left;
+  max-width: 30%;
+  margin-top: 60px;
+  margin-right: 40px;
+  padding-bottom: 60px;
+  text-align: center;
+}
 
 .work-column-left {
-  max-width: 45%;
   float: left;
-  margin-right: 3px;
-  margin-top: 40px;
-  height: 60%; }
+  height: 45%;
+  max-width: 40%;
+  margin-top: 10px;
+  margin-left: 100px;
+}
 
 .work-column-right {
-  max-width: 45%;
   float: right;
+  height: 60%;
+  max-width: 40%;
   margin-top: 80px;
-  height: 60%; }
+  margin-right: 100px;
+}
 
-.info-wrapper {
-  padding-top: 50px; }
+.wrapper {
+  background: white;
+  left: 0px;
+  padding-top: 15px;
+  position: fixed;
+  right: 0px;
+  top: 0;
+}
 
-body {
-  font-family: 'Montserrat', sans-serif;
-  margin: 0; }
-
-.clearfix::after {
-  display: block;
-  content: "";
-  clear: both; }
+.wrapper-principal {
+  background: linear-gradient(90deg, #EF0038, #DC4104, #FFBC00);
+  margin-top: 100px;
+  min-height: 65vh;
+}
 
 a {
-  text-decoration: none; }
+  text-decoration: none;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: block;
+}
 
 hr {
-  margin: 0; }
+  margin: 0;
+}
 
 h3 {
-  margin: 0; }
+  margin: 0;
+}
 
 li {
-  list-style: none; }
+  list-style: none;
+}
 
-.principal-tittle {
+.personal-tittle {
   color: white;
+  font-size: 35px;
   margin: 0;
   margin-left: 100px;
-  font-size: 43px;
-  max-width: 28%;
-  padding-top: 60px; }
+  padding-top: 25px;
+}
+
+.principal-tittles {
+  font-size: 60px;
+  font-weight: bold;
+  margin: 100px 0 0;
+}
 
 .tittle-aboutme {
-  text-align: center; }
-
-.tittle-project {
-  text-align: center; }
-
-.hello {
-  font-size: 60px;
-  font-weight: bold; }
+  text-align: center;
+}
 
 .logo-hillary {
+  max-width: 65px;
   padding: 4px 0 4px 50px;
-  max-width: 65px; }
+}
+
+.image-circule {
+  border-radius: 250px;
+  float: right;
+  height: 300px;
+  margin-right: 86px;
+  margin-top: -140px;
+  object-fit: cover;
+  width: 300px;
+}
 
 .image-work {
+  height: 100%;
   max-width: 100%;
   object-fit: cover;
-  height: 100%; }
+}
 
-.e-mail {
-  padding-top: 20px; }
+.skills-img {
+  max-width: 20%;
+}
 
 .autor-icon {
+  margin: 0;
   margin-top: 10px;
   font-size: 6px;
-  margin: 0; }
+}
+
+#contact {
+  background-color: #FFBC00;
+  color: white;
+  padding-top: 40px;
+}
+
+.e-mail {
+  padding-top: 20px;
+}
 
 .icons {
   max-width: 32%;
+  padding-left: 32%;
   text-align: center;
-  padding-left: 32%; }
+}
 
 .icon-image {
   max-width: 9.5%;
-  padding-bottom: 10px; }
+  padding-bottom: 10px;
+}
 
-#contact {
-  background-color: #DFA000;
-  color: white;
-  padding-top: 40px; }
+li:hover a {
+  text-decoration-line: line-through;
+  text-decoration-color: black;
+}
+
+.menue {
+  color: black;
+}
+
+.menue-list {
+  display: inline;
+  margin-right: 15px;
+}
 
 .principal-menue {
   float: right;
   list-style: none;
+  margin-top: 27px;
   padding-right: 50px;
-  margin-top: 27px; }
-
-.menue-list {
-  display: inline;
-  margin-right: 15px; }
-
-.menue {
-  color: white; }
-
-li:hover a {
-  text-decoration-line: line-through;
-  text-decoration-color: white; }
+}
 
 /*# sourceMappingURL=style.css.map */

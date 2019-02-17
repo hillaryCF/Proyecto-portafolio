@@ -1,9 +1,21 @@
 .logo-hillary {
-	padding: 4px 0 4px 50px;
 	max-width: 65px;
+	padding: 4px 0 4px 50px;
+}
+.image-circule {
+	border-radius: 250px;
+	float: right;
+	height: 300px;
+	margin-right: 86px;
+	margin-top: -140px;
+	object-fit: cover;
+	width: 300px;
 }
 .image-work {
+	height: 100%;
 	max-width: 100%;
 	object-fit: cover;
-	height: 100%;
+}
+.skills-img {
+	max-width: 20%;
 }
