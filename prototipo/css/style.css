@@ -1,189 +1,54 @@
-.personal-info {
-  max-width: 65%;
-  padding-top: 50px;
-}
+.container-info-aboutme {
+  max-width: 50%;
+  margin-left: 80px; }
 
-.personal-skills {
-  color: white;
-  background: #EF0038;
-}
-
-.principal-container {
-  margin: 0 auto;
-  max-width: 1200px;
-}
-
-#project {
-  margin-top: 90px;
-  padding-bottom: 10px;
-}
-
-.skills {
-  float: left;
-  max-width: 30%;
-  margin-top: 60px;
-  margin-right: 40px;
-  padding-bottom: 60px;
-  text-align: center;
-}
-
-.work-column-left {
-  float: left;
-  height: 45%;
-  max-width: 38%;
-  margin-top: 10px;
-  margin-left: 100px;
-  margin-bottom: 50px;
-}
-
-.work-column-right {
-  float: right;
-  height: 60%;
-  max-width: 38%;
-  margin-top: 80px;
-  margin-right: 100px;
-}
-
-.wrapper {
-  background: white;
+.wrapper-menue {
   left: 0px;
-  padding-top: 15px;
   position: fixed;
   right: 0px;
-  top: 0;
-}
+  margin-top: 20px; }
 
-.wrapper-principal {
-  background: linear-gradient(90deg, #EF0038, #DC4104, #FFBC00);
-  margin-top: 100px;
-  min-height: 65vh;
-}
+.container-img-logo {
+  text-align: center;
+  max-width: 100%; }
+
+.container-header {
+  background: #f7f7f7;
+  padding-bottom: 20px; }
+
+.logo {
+  width: 18%;
+  margin-top: 120px; }
 
 a {
-  text-decoration: none;
-}
+  text-decoration: none; }
 
 body {
-  font-family: "Montserrat", sans-serif;
-  margin: 0;
-}
+  font-family: 'Montserrat', sans-serif;
+  margin: 0; }
 
 .clearfix::after {
   content: "";
   clear: both;
-  display: block;
-}
-
-hr {
-  margin: 0;
-}
-
-h3 {
-  margin: 0;
-}
+  display: block; }
 
 li {
-  list-style: none;
-}
-
-.personal-tittle {
-  color: white;
-  font-size: 35px;
-  margin: 0;
-  margin-left: 100px;
-  padding-top: 25px;
-}
-
-.principal-tittles {
-  font-size: 60px;
-  font-weight: bold;
-  margin: 100px 0 0;
-}
-
-.tittle-aboutme {
-  text-align: center;
-}
-
-.tittle-project {
-  font-size: 25px;
-  color: black;
-}
-
-.tittle-project:hover {
-  color: #EF0038;
-}
-
-.logo-hillary {
-  max-width: 65px;
-  padding: 4px 0 4px 50px;
-}
-
-.image-circule {
-  border-radius: 250px;
-  float: right;
-  height: 300px;
-  margin-right: 86px;
-  margin-top: -140px;
-  object-fit: cover;
-  width: 300px;
-}
-
-.image-work {
-  height: 100%;
-  max-width: 100%;
-  object-fit: cover;
-}
-
-.skills-img {
-  max-width: 20%;
-}
-
-.autor-icon {
-  margin: 0;
-  margin-top: 10px;
-  font-size: 6px;
-}
-
-#contact {
-  background-color: #FFBC00;
-  color: white;
-  padding-top: 40px;
-}
-
-.e-mail {
-  padding-top: 20px;
-}
-
-.icons {
-  max-width: 32%;
-  padding-left: 32%;
-  text-align: center;
-}
-
-.icon-image {
-  max-width: 9.5%;
-  padding-bottom: 10px;
-}
+  list-style: none; }
 
 li:hover a {
   text-decoration-line: line-through;
-  text-decoration-color: black;
-}
+  text-decoration-color: black; }
 
 .menue {
-  color: black;
-}
+  color: black; }
 
 .menue-list {
   display: inline;
-  margin-right: 15px;
-}
+  margin-right: 15px; }
 
 .principal-menue {
-  float: right;
   list-style: none;
   margin-top: 27px;
-  padding-right: 50px;
-}
+  text-align: center; }
 
 /*# sourceMappingURL=style.css.map */
