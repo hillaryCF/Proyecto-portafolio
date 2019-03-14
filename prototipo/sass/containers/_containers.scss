@@ -1,12 +1,15 @@
 .container-info-aboutme {
   max-width: 50%;
   margin-left: 80px;
+  margin-top: 55px;
 }
 .wrapper-menue {
+  margin: 0;
   left: 0px;
   position: fixed;
   right: 0px;
-  margin-top: 20px;
+  padding-top: 20px;
+  background: $beige;
 }
 .container-img-logo {
   text-align: center;
@@ -15,4 +18,32 @@
 .container-header {
   background: $beige;
   padding-bottom: 20px;
+}
+.skills{
+  margin-left: 80px;
+  padding-top: 30px;
+}
+.first-skill {
+  width: 30%;
+  height: 300px;
+  background: $yellow;
+  margin-left: 36px;
+  text-align: center;
+  float: left;
+  margin-bottom: 50px;
+}
+.first-skill:hover {
+  background: $beige;
+  .list-info-skill{
+    display: inline;
+  }
+}
+.first-skill:hover {
+  .tittle-skill{
+    padding-top: 0;
+  }
+}
+.wrapper {
+  margin: 0 auto;
+  max-width: 1200px;
 }
