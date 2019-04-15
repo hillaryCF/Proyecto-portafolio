@@ -1,0 +1,199 @@
+.container-info-aboutme {
+  max-width: 50%;
+  margin-left: 80px;
+  margin-top: 55px;
+}
+
+.wrapper-menue {
+  margin: 0;
+  left: 0px;
+  position: fixed;
+  right: 0px;
+  padding-top: 20px;
+  background: #f3c602;
+  z-index: 200;
+}
+
+.container-img-logo {
+  text-align: center;
+  max-width: 100%;
+}
+
+.container-header {
+  background: #f7f7f7;
+  padding-bottom: 20px;
+}
+
+.container-project {
+  margin-left: 22px;
+  width: 30%;
+  float: left;
+  height: 50%;
+}
+
+.inf-proyect {
+  text-align: center;
+}
+
+.footer {
+  padding-top: 10px;
+  background: #7b2d05;
+  text-align: center;
+}
+
+#project {
+  margin-left: 80px;
+  padding-top: 50px;
+  text-transform: uppercase;
+  clear: both;
+}
+
+#github {
+  margin-left: 80px;
+  padding-top: 50px;
+  text-transform: uppercase;
+  clear: both;
+}
+
+#contaier-github {
+  font-size: 12px;
+  text-align: center;
+  background-color: #f7f7f7;
+  padding-top: 20px;
+  margin: 0 auto;
+}
+
+.skills {
+  margin-left: 80px;
+  padding-top: 30px;
+}
+
+.first-skill {
+  width: 30%;
+  height: 300px;
+  background: #6d9869;
+  margin-left: 36px;
+  text-align: center;
+  float: left;
+  margin-bottom: 50px;
+  margin-left: 36px;
+  transition: 1s;
+}
+
+.first-skill:hover {
+  background: #f7f7f7;
+}
+.first-skill:hover .list-info-skill {
+  display: inline;
+}
+
+.first-skill:hover .tittle-skill {
+  padding-top: 0;
+}
+
+.wrapper {
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+.logo {
+  width: 15%;
+  margin-top: 120px;
+}
+
+.icon-proyec {
+  max-width: 8%;
+  background-color: #f3c602;
+  border-radius: 50%;
+  padding: 8px;
+}
+
+.icon-proyec:hover {
+  background: #6d9869;
+}
+
+.img-project {
+  max-width: 100%;
+  height: 100%;
+}
+
+.icon-footer {
+  width: 3%;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+li {
+  list-style: none;
+}
+
+.date-git {
+  border-bottom: 1px solid #d1af2a;
+  padding-bottom: 25px;
+}
+
+.tittle-hello {
+  color: #3e1e0e;
+  text-align: center;
+  font-size: 53px;
+  margin: 0;
+}
+
+.info-aboutme {
+  color: #3e1e0e;
+  text-align: center;
+  font-size: 26px;
+}
+
+.content-aboutme {
+  color: #6d9869;
+}
+
+.tittle-container {
+  font-size: 35px;
+}
+
+.tittle-skill {
+  color: #3e1e0e;
+  padding-top: 100px;
+  margin-bottom: 0;
+  font-size: 32px;
+}
+
+li:hover a {
+  color: #d1af2a;
+}
+
+.menue {
+  color: #3e1e0e;
+}
+
+.menue-list {
+  display: inline;
+  margin-right: 15px;
+}
+
+.principal-menue {
+  list-style: none;
+  margin-top: 27px;
+  text-align: center;
+}
+
+.list-info-skill {
+  display: none;
+}
+
+/*# sourceMappingURL=style.css.map */

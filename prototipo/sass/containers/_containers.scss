@@ -1,0 +1,85 @@
+.container-info-aboutme {
+  max-width: 50%;
+  margin-left: 80px;
+  margin-top: 55px;
+}
+.wrapper-menue {
+  margin: 0;
+  left: 0px;
+  position: fixed;
+  right: 0px;
+  padding-top: 20px;
+  background: #f3c602;
+  z-index: 200;
+}
+.container-img-logo {
+  text-align: center;
+  max-width: 100%;
+}
+.container-header {
+  background: $beige;
+  padding-bottom: 20px;
+}
+.container-project {
+  margin-left: 22px;
+  width: 30%;
+  float: left;
+  height: 50%;
+}
+.inf-proyect {
+  text-align: center;
+}
+.footer{
+  padding-top: 10px;
+  background: #f3c602;
+  text-align: center;
+}
+#project {
+  margin-left: 80px;
+  padding-top: 50px;
+  text-transform: uppercase;
+  clear: both;
+}
+#github {
+  margin-left: 80px;
+  padding-top: 50px;
+  text-transform: uppercase;
+  clear: both;
+}
+#contaier-github {
+  font-size: 12px;
+  text-align: center;
+  background-color: #f7f7f7;
+  padding-top: 20px;
+  margin: 0 auto;
+}
+.skills{
+  margin-left: 80px;
+  padding-top: 30px;
+}
+.first-skill {
+  width: 30%;
+  height: 300px;
+  background: #6d9869;
+  margin-left: 36px;
+  text-align: center;
+  float: left;
+  margin-bottom: 50px;
+  margin-left: 36px;
+  transition: 1s;
+}
+.first-skill:hover {
+  background: $beige;
+  .list-info-skill{
+    display: inline;
+  }
+}
+.first-skill:hover {
+  .tittle-skill{
+    padding-top: 0;
+  }
+}
+.wrapper {
+  margin: 0 auto;
+  max-width: 1200px;
+}
