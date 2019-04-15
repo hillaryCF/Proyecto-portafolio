@@ -9,7 +9,7 @@ fetch('https://api.github.com/users/hillaryCF/events')
 	
 
 function githubActivity(data) {
-		for (let i = 0; i < 10;) {
+		for (let i = 0; i < 5;) {
 			let date = data[0].created_at.split('-');
 			let newDate=(`${date[0]}/${date[1]}`);
 			const container = document.getElementById('contaier-github');
@@ -20,7 +20,7 @@ function githubActivity(data) {
 			const commitGit = document.createElement('p');
 			commitGit.setAttribute('data-index',i);
 			container.appendChild(commitGit);
-			commitGit.innerText = data[i].payload.commits[0].message;
+			commitGit.innerText = data[i].payload.commits[i].message;
 			const dateGit = document.createElement('p');
 			dateGit.setAttribute('class','date-git');
 			dateGit.setAttribute('data-index',i);
