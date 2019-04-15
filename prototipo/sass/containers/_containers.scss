@@ -9,7 +9,7 @@
   position: fixed;
   right: 0px;
   padding-top: 20px;
-  background: $beige;
+  background: #f3c602;
   z-index: 200;
 }
 .container-img-logo {
@@ -27,6 +27,11 @@
   height: 50%;
 }
 .inf-proyect {
+  text-align: center;
+}
+.footer{
+  padding-top: 10px;
+  background: #7b2d05;
   text-align: center;
 }
 #project {
@@ -55,7 +60,7 @@
 .first-skill {
   width: 30%;
   height: 300px;
-  background: $yellow;
+  background: #6d9869;
   margin-left: 36px;
   text-align: center;
   float: left;

@@ -10,7 +10,7 @@
   position: fixed;
   right: 0px;
   padding-top: 20px;
-  background: #f7f7f7;
+  background: #f3c602;
   z-index: 200;
 }
 
@@ -32,6 +32,12 @@
 }
 
 .inf-proyect {
+  text-align: center;
+}
+
+.footer {
+  padding-top: 10px;
+  background: #7b2d05;
   text-align: center;
 }
 
@@ -65,7 +71,7 @@
 .first-skill {
   width: 30%;
   height: 300px;
-  background: #d1af2a;
+  background: #6d9869;
   margin-left: 36px;
   text-align: center;
   float: left;
@@ -97,18 +103,22 @@
 
 .icon-proyec {
   max-width: 8%;
-  background-color: #d1af2a;
+  background-color: #f3c602;
   border-radius: 50%;
   padding: 8px;
 }
 
 .icon-proyec:hover {
-  background: #5f5532;
+  background: #6d9869;
 }
 
 .img-project {
   max-width: 100%;
   height: 100%;
+}
+
+.icon-footer {
+  width: 3%;
 }
 
 a {
@@ -136,19 +146,20 @@ li {
 }
 
 .tittle-hello {
-  color: #d1af2a;
+  color: #3e1e0e;
   text-align: center;
   font-size: 53px;
   margin: 0;
 }
 
 .info-aboutme {
+  color: #3e1e0e;
   text-align: center;
   font-size: 26px;
 }
 
 .content-aboutme {
-  color: #d1af2a;
+  color: #6d9869;
 }
 
 .tittle-container {
@@ -156,6 +167,7 @@ li {
 }
 
 .tittle-skill {
+  color: #3e1e0e;
   padding-top: 100px;
   margin-bottom: 0;
   font-size: 32px;
@@ -166,7 +178,7 @@ li:hover a {
 }
 
 .menue {
-  color: black;
+  color: #3e1e0e;
 }
 
 .menue-list {
