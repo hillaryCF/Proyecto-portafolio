@@ -1,7 +1,8 @@
 .container-info-aboutme {
   max-width: 50%;
   margin-left: 80px;
-  margin-top: 55px; }
+  margin-top: 55px;
+}
 
 .wrapper-menue {
   margin: 0;
@@ -9,19 +10,57 @@
   position: fixed;
   right: 0px;
   padding-top: 20px;
-  background: #f7f7f7; }
+  background: #f7f7f7;
+  z-index: 200;
+}
 
 .container-img-logo {
   text-align: center;
-  max-width: 100%; }
+  max-width: 100%;
+}
 
 .container-header {
   background: #f7f7f7;
-  padding-bottom: 20px; }
+  padding-bottom: 20px;
+}
+
+.container-project {
+  margin-left: 22px;
+  width: 30%;
+  float: left;
+  height: 50%;
+}
+
+.inf-proyect {
+  text-align: center;
+}
+
+#project {
+  margin-left: 80px;
+  padding-top: 50px;
+  text-transform: uppercase;
+  clear: both;
+}
+
+#github {
+  margin-left: 80px;
+  padding-top: 50px;
+  text-transform: uppercase;
+  clear: both;
+}
+
+#contaier-github {
+  font-size: 12px;
+  text-align: center;
+  background-color: #f7f7f7;
+  padding-top: 20px;
+  margin: 0 auto;
+}
 
 .skills {
   margin-left: 80px;
-  padding-top: 30px; }
+  padding-top: 30px;
+}
 
 .first-skill {
   width: 30%;
@@ -30,76 +69,119 @@
   margin-left: 36px;
   text-align: center;
   float: left;
-  margin-bottom: 50px; }
+  margin-bottom: 50px;
+  margin-left: 36px;
+  transition: 1s;
+}
 
 .first-skill:hover {
-  background: #f7f7f7; }
-  .first-skill:hover .list-info-skill {
-    display: inline; }
+  background: #f7f7f7;
+}
+.first-skill:hover .list-info-skill {
+  display: inline;
+}
 
 .first-skill:hover .tittle-skill {
-  padding-top: 0; }
+  padding-top: 0;
+}
 
 .wrapper {
   margin: 0 auto;
-  max-width: 1200px; }
+  max-width: 1200px;
+}
 
 .logo {
   width: 15%;
-  margin-top: 120px; }
+  margin-top: 120px;
+}
+
+.icon-proyec {
+  max-width: 8%;
+  background-color: #d1af2a;
+  border-radius: 50%;
+  padding: 8px;
+}
+
+.icon-proyec:hover {
+  background: #5f5532;
+}
+
+.img-project {
+  max-width: 100%;
+  height: 100%;
+}
 
 a {
-  text-decoration: none; }
+  text-decoration: none;
+}
 
 body {
-  font-family: 'Montserrat', sans-serif;
-  margin: 0; }
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+}
 
 .clearfix::after {
   content: "";
   clear: both;
-  display: block; }
+  display: block;
+}
 
 li {
-  list-style: none; }
+  list-style: none;
+}
+
+.date-git {
+  border-bottom: 1px solid #d1af2a;
+  padding-bottom: 25px;
+}
 
 .tittle-hello {
   color: #d1af2a;
   text-align: center;
   font-size: 53px;
-  margin: 0; }
+  margin: 0;
+}
 
 .info-aboutme {
   text-align: center;
-  font-size: 26px; }
+  font-size: 26px;
+}
 
 .content-aboutme {
-  color: #d1af2a; }
+  color: #d1af2a;
+}
 
 .tittle-container {
-  font-size: 35px; }
+  font-size: 35px;
+}
 
 .tittle-skill {
   padding-top: 100px;
   margin-bottom: 0;
-  font-size: 32px; }
+  font-size: 32px;
+}
 
 li:hover a {
-  color: #d1af2a; }
+  color: #d1af2a;
+}
 
 .menue {
-  color: black; }
+  color: black;
+}
 
 .menue-list {
   display: inline;
-  margin-right: 15px; }
+  margin-right: 15px;
+}
 
 .principal-menue {
   list-style: none;
   margin-top: 27px;
-  text-align: center; }
+  text-align: center;
+}
 
 .list-info-skill {
-  display: none; }
+  display: none;
+}
 
 /*# sourceMappingURL=style.css.map */
