@@ -1,10 +1,11 @@
 li:hover a {
   color: $yellow;
 }
-.menue {
-  color: #3e1e0e;
+.menu__list-link {
+  color: #281208;
+  text-transform: uppercase;
 }
-.menue-list {
+.menu__list {
   display: inline;
   margin-right: 15px;
 }

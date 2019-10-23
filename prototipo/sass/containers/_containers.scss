@@ -1,9 +1,6 @@
-.container-info-aboutme {
-  max-width: 50%;
-  margin-left: 80px;
-  margin-top: 55px;
-}
-.wrapper-menue {
+.menu {
+  display: flex;
+  justify-content: center;
   margin: 0;
   left: 0px;
   position: fixed;
@@ -12,51 +9,30 @@
   background: #f3c602;
   z-index: 200;
 }
-.container-img-logo {
-  max-width: 100%;
-  padding-left: 22%;
+
+.aboutme {
+  max-width: 40%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-left: 100px;
+  margin-bottom: 70px;
 }
-.container-header {
-  background: $beige;
-  padding-bottom: 20px;
+
+.photo {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 273px;
+  margin-top: -448px;
 }
+
 .container-project {
   margin-left: 22px;
   width: 30%;
   float: left;
   height: 50%;
 }
-.inf-proyect {
-  padding-bottom: 50px;
-}
-.footer{
-  padding-top: 10px;
-  background: #f3c602;
-  text-align: center;
-}
-#project {
-  margin-left: 80px;
-  padding-top: 50px;
-  text-transform: uppercase;
-  clear: both;
-}
-#github {
-  margin-left: 80px;
-  padding-top: 50px;
-  text-transform: uppercase;
-  clear: both;
-}
-#contaier-github {
-  font-size: 12px;
-  text-align: center;
-  background-color: #f7f7f7;
-  padding-top: 20px;
-  margin: 0 auto;
-}
-.skills{
-  margin-left: 80px;
-  padding-top: 30px;
-}
+
 .first-skill {
   width: 30%;
   height: 300px;
@@ -68,18 +44,45 @@
   margin-left: 36px;
   transition: 1s;
 }
+
 .first-skill:hover {
   background: $beige;
   .list-info-skill{
     display: inline;
   }
 }
+
 .first-skill:hover {
   .tittle-skill{
     padding-top: 0;
   }
 }
+
+.footer{
+  clear: both;
+  padding-top: 10px;
+  background: #f3c602;
+  text-align: center;
+}
+
+.inf-proyect {
+  padding-bottom: 50px;
+}
+
+.project {
+  margin-left: 80px;
+  padding-top: 50px;
+  text-transform: uppercase;
+  clear: both;
+}
+
+.skills{
+  margin-left: 80px;
+  padding-top: 30px;
+}
+
 .wrapper {
   margin: 0 auto;
   max-width: 1200px;
 }
+

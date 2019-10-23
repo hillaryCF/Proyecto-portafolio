@@ -1,9 +1,6 @@
-.container-info-aboutme {
-  max-width: 50%;
-  margin-left: 80px;
-  margin-top: 55px; }
-
-.wrapper-menue {
+.menu {
+  display: flex;
+  justify-content: center;
   margin: 0;
   left: 0px;
   position: fixed;
@@ -12,50 +9,25 @@
   background: #f3c602;
   z-index: 200; }
 
-.container-img-logo {
-  max-width: 100%;
-  padding-left: 22%; }
+.aboutme {
+  max-width: 40%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-left: 100px;
+  margin-bottom: 70px; }
 
-.container-header {
-  background: #f7f7f7;
-  padding-bottom: 20px; }
+.photo {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 273px;
+  margin-top: -448px; }
 
 .container-project {
   margin-left: 22px;
   width: 30%;
   float: left;
   height: 50%; }
-
-.inf-proyect {
-  padding-bottom: 50px; }
-
-.footer {
-  padding-top: 10px;
-  background: #f3c602;
-  text-align: center; }
-
-#project {
-  margin-left: 80px;
-  padding-top: 50px;
-  text-transform: uppercase;
-  clear: both; }
-
-#github {
-  margin-left: 80px;
-  padding-top: 50px;
-  text-transform: uppercase;
-  clear: both; }
-
-#contaier-github {
-  font-size: 12px;
-  text-align: center;
-  background-color: #f7f7f7;
-  padding-top: 20px;
-  margin: 0 auto; }
-
-.skills {
-  margin-left: 80px;
-  padding-top: 30px; }
 
 .first-skill {
   width: 30%;
@@ -76,30 +48,40 @@
 .first-skill:hover .tittle-skill {
   padding-top: 0; }
 
+.footer {
+  clear: both;
+  padding-top: 10px;
+  background: #f3c602;
+  text-align: center; }
+
+.inf-proyect {
+  padding-bottom: 50px; }
+
+.project {
+  margin-left: 80px;
+  padding-top: 50px;
+  text-transform: uppercase;
+  clear: both; }
+
+.skills {
+  margin-left: 80px;
+  padding-top: 30px; }
+
 .wrapper {
   margin: 0 auto;
   max-width: 1200px; }
 
-.logo {
-  width: 18%;
-  margin-top: 120px; }
+.icon-footer {
+  width: 3%; }
 
-.icon-proyec {
+.icon-project {
   max-width: 5%;
   background-color: #f3c602;
   border-radius: 50%;
   padding: 8px; }
 
-.icon-proyec:hover {
+.icon-project:hover {
   background: #6d9869; }
-
-.img-project {
-  max-width: 100%;
-  height: 100%;
-  object-fit: cover; }
-
-.icon-footer {
-  width: 3%; }
 
 .img-hillary {
   object-fit: cover;
@@ -109,10 +91,22 @@
   height: 400px;
   border-radius: 89px; }
 
-.img-project2 {
-  max-width: 70%;
+.img-project {
+  max-width: 100%;
   height: 100%;
   object-fit: cover; }
+
+.img-project2 {
+  max-width: 90%;
+  height: 100%;
+  object-fit: cover; }
+
+.aboutme__logo {
+  width: 35%;
+  margin-top: 120px; }
+
+.photo__profile {
+  width: 30%; }
 
 a {
   text-decoration: none; }
@@ -126,26 +120,24 @@ body {
   clear: both;
   display: block; }
 
-li {
-  list-style: none; }
-
 .date-git {
   border-bottom: 1px solid #d1af2a;
   padding-bottom: 25px; }
 
-.tittle-hello {
+li {
+  list-style: none; }
+
+.aboutme__paragraph {
+  color: #6d9869; }
+
+.aboutme__title {
   color: #3e1e0e;
   text-align: center;
   font-size: 53px;
   margin: 0; }
 
-.info-aboutme {
-  color: #3e1e0e;
-  text-align: center;
+.aboutme__title--size {
   font-size: 26px; }
-
-.content-aboutme {
-  color: #6d9869; }
 
 .tittle-container {
   font-size: 35px; }
@@ -159,10 +151,11 @@ li {
 li:hover a {
   color: #d1af2a; }
 
-.menue {
-  color: #3e1e0e; }
+.menu__list-link {
+  color: #281208;
+  text-transform: uppercase; }
 
-.menue-list {
+.menu__list {
   display: inline;
   margin-right: 15px; }
 

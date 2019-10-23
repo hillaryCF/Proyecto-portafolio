@@ -1,119 +1,133 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title>Portafolio</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="css/style.css"/>
-  <link href="https://fonts.googleapis.com/css?family=Gruppo|Michroma|Montserrat|Raleway|Rubik+Mono+One" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css" />
+  <link href="https://fonts.googleapis.com/css?family=Gruppo|Michroma|Montserrat|Raleway|Rubik+Mono+One"
+    rel="stylesheet">
 </head>
+
 <body>
-  <div class="container-header">
-    <div class="wrapper-menue">
-      <ul class="principal-menue clearfix">
-        <li class="menue-list"><a href="#aboutme" class="menue">ABOUT ME</a></li>
-        <li class="menue-list"><a href="#project" class="menue">PROJECTS</a></li>
-        <li class="menue-list"><a href="#github" class="menue">GITHUB</a></li>
-        <li class="menue-list"><a href="#contact" class="menue">CONTACT</a></li>
+  <div class="menu">
+    <ul>
+      <li class="menu__list"><a href="#aboutme" class="menu__list-link">about me</a></li>
+      <li class="menu__list"><a href="#project" class="menu__list-link">projects</a></li>
+      <li class="menu__list"><a href="#github" class="menu__list-link">github</a></li>
+      <li class="menu__list"><a href="#contact" class="menu__list-link">contact</a></li>
+    </ul>
+  </div>
+  <div class="aboutme">
+    <img src="img/girasol.svg" alt="logo de girasol" class="aboutme__logo">
+    <h2 class="aboutme__title">H E L L O</h2>
+    <h2 class="aboutme__title aboutme__title--size">MY NAME IS HILLARY CORDERO</h2>
+    <p class="aboutme__paragraph">Gradued from Cetav of the design and web development carrer, which in my opinion
+      is a super power. I am a dedicated person, with a great ability to work in a team and i love
+      what i do. I love my family, dogs, music and the beach.</p>
+  </div>
+  <div class="photo">
+    <img src="./img/profile-photo.png" alt="profile photo" class="photo__profile">
+  </div>
+  <div class="skills">
+    <h2 class="tittle-container">SKILLS</h2>
+    <div class="first-skill">
+      <h2 class="tittle-skill">WEB</h2>
+      <ul class="list-info-skill">
+        <li class="list-skill">+ HTML</li>
+        <li class="list-skill">+ CSS</li>
+        <li class="list-skill">+ javascript</li>
+        <li class="list-skill">+ Wordpress</li>
+        <li class="list-skill">+ Sass</li>
+        <li class="list-skill">+ Git</li>
+        <li class="list-skill">+ GitHub</li>
+      </ul>
+    </div>
+    <div class="first-skill">
+      <h2 class="tittle-skill">DESING</h2>
+      <ul class="list-info-skill">
+        <li class="list-skill">+ UX/UI Design</li>
+        <li class="list-skill">+ Photoshop</li>
+        <li class="list-skill">+ Illustrator</li>
+      </ul>
+    </div>
+    <div class="first-skill">
+      <h2 class="tittle-skill">SOFT SKILLS</h2>
+      <ul class="list-info-skill">
+        <li class="list-skill">+ Nonviolent communication</li>
+        <li class="list-skill">+ Design Thinking</li>
       </ul>
     </div>
   </div>
-  <div>
-  </div>
-  <div class="container-img-logo" id="aboutme">
-    <img src="img/girasol.svg" alt="logo de girasol con nombre Hillary" class="logo">
-  </div>
-  <div class="container-info-aboutme">
-        <h2 class="tittle-hello">H E L L O</h2>
-        <h2 class="info-aboutme">MY NAME IS HILLARY CORDERO</h2>
-        <p class="content-aboutme">Gradued from Cetav of the design and web development carrer, which in my opinion 
-        is a super power. I am a dedicated person, with a great ability to work in a team and i love 
-        what i do. I love my family, dogs, music and the beach.</p>
-        
-    </div>
-    <div class="skills">
-      <h2 class="tittle-container">SKILLS</h2>
-      <div class="first-skill">
-        <h2 class="tittle-skill">WEB</h2>
-        <ul class ="list-info-skill">
-          <li class="list-skill">+ HTML</li>
-          <li class="list-skill">+ CSS</li>
-          <li class="list-skill">+ javascript</li>
-          <li class="list-skill">+ Wordpress</li>
-          <li class="list-skill">+ Sass</li>
-          <li class="list-skill">+ Git</li>
-          <li class="list-skill">+ GitHub</li>
-        </ul>
-      </div>
-      <div class="first-skill">
-        <h2 class="tittle-skill">DESING</h2>
-        <ul class ="list-info-skill">
-          <li class="list-skill">+ UX/UI Design</li>
-          <li class="list-skill">+ Photoshop</li>
-          <li class="list-skill">+ Illustrator</li>
-        </ul>
-      </div>
-      <div class="first-skill">
-        <h2 class="tittle-skill">SOFT SKILLS</h2>
-        <ul class ="list-info-skill">
-          <li class="list-skill">+ Nonviolent communication</li>
-          <li class="list-skill">+ Design Thinking</li>
-        </ul>
-      </div>
-  </div>
-  <div id="project">
+  <div class="project">
     <h2 class="tittle-container">projects</h2>
     <div class="container-project">
       <img src="img/tinyone.png" alt="imagen ilustrativa de proyecto" class="img-project">
       <div class="inf-proyect">
         <h3>tinyone</h3>
-        <a href="https://github.com/hillaryCF/tinyone" target="_blank"><img src="img/logo-de-github (1).svg" alt="" class="icon-proyec"></a>
-        <a href="https://hillarycf.github.io/tinyone/" target="_blank"><img src="img/enlace.png" alt="" class="icon-proyec"></a>
-    </div>
+        <a href="https://github.com/hillaryCF/tinyone" target="_blank"><img src="img/logo-de-github (1).svg"
+            class="icon-project"></a>
+        <a href="https://hillarycf.github.io/tinyone/" target="_blank"><img src="img/enlace.png"
+            class="icon-project"></a>
+      </div>
     </div>
     <div class="container-project">
       <img src="img/creaticestudio2.png" alt="imagen ilustrativa de proyecto" class="img-project">
       <div class="inf-proyect">
         <h3>creative studio</h3>
-        <a href="https://github.com/hillaryCF/creative-studio" target="_blank"><img src="img/logo-de-github (1).svg" alt="" class="icon-proyec"></a>
-        <a href="https://hillarycf.github.io/creative-studio/" target="_blank"><img src="img/enlace.png" alt="" class="icon-proyec"></a>
+        <a href="https://github.com/hillaryCF/creative-studio" target="_blank"><img src="img/logo-de-github (1).svg"
+            class="icon-project"></a>
+        <a href="https://hillarycf.github.io/creative-studio/" target="_blank"><img src="img/enlace.png"
+            class="icon-project"></a>
       </div>
     </div>
     <div class="container-project">
       <img src="img/web.png" alt="imagen ilustrativa de proyecto" class="img-project">
       <div class="inf-proyect">
         <h3>blaz robar</h3>
-        <a href="https://github.com/hillaryCF/Proyecto-portafolio" target="_blank"><img src="img/logo-de-github (1).svg" alt="" class="icon-proyec"></a>
-        <a href="https://github.com/hillaryCF/Proyecto-portafolio" target="_blank"><img src="img/enlace.png" alt="" class="icon-proyec"></a>
+        <a href="https://github.com/hillaryCF/Proyecto-portafolio" target="_blank"><img src="img/logo-de-github (1).svg"
+            class="icon-project"></a>
+        <a href="https://github.com/hillaryCF/Proyecto-portafolio" target="_blank"><img src="img/enlace.png"
+            class="icon-project"></a>
       </div>
     </div>
     <div class="container-project">
       <img src="img/player.png" alt="imagen ilustrativa de proyecto" class="img-project2">
       <div class="inf-proyect">
         <h3>reporoductor</h3>
-        <a href="https://github.com/hillaryCF/proyecto-final-js" target="_blank"><img src="img/logo-de-github (1).svg" alt="" class="icon-proyec"></a>
-        <a href="https://github.com/hillaryCF/Proyecto-portafolio" target="_blank"><img src="img/enlace.png" alt="" class="icon-proyec"></a>
+        <a href="https://github.com/hillaryCF/proyecto-final-js" target="_blank"><img src="img/logo-de-github (1).svg"
+            class="icon-project"></a>
+
       </div>
     </div>
     <div class="container-project">
-      <img src="img/toro.png" alt="imagen ilustrativa de proyecto" class="img-project2">
+      <img src="img/MadeinOrganic.png" alt="imagen ilustrativa de proyecto" class="img-project2">
       <div class="inf-proyect">
-        <h3>toro rosa</h3>
-        <a href="https://github.com/hillaryCF/toro-rosa" target="_blank"><img src="img/logo-de-github (1).svg" alt="" class="icon-proyec"></a>
-        <a href="https://hillarycf.github.io/toro-rosa/" target="_blank"><img src="img/enlace.png" alt="" class="icon-proyec"></a>
+        <h3>Made In Organic</h3>
+        <a href="https://github.com/hillaryCF/Proyecto-final-" target="_blank"><img src="img/logo-de-github (1).svg"
+            class="icon-project"></a>
+
+      </div>
+    </div>
+    <div class="container-project">
+      <img src="img/e-commerce.jpg" alt="imagen ilustrativa de proyecto" class="img-project2">
+      <div class="inf-proyect">
+        <h3>E-Commerce</h3>
+        <a href="https://github.com/hillaryCF/Made-In-Organic" target="_blank"><img src="img/logo-de-github (1).svg"
+            class="icon-project"></a>
       </div>
     </div>
   </div>
   <div id="github">
-    <h2 class="tittle-container">github</h2>
+    <h2 class="tittle-container"></h2>
   </div>
-  <div id="contaier-github"></div>
   <div class="footer">
-      <a href="https://github.com/hillaryCF" target="_blank"><img src="img/logo-de-github (1).svg" alt="" class="icon-footer"></a>
+    <a href="https://github.com/hillaryCF" target="_blank"><img src="img/logo-de-github (1).svg"
+        class="icon-footer"></a>
   </div>
-    
-
   <script src="javascript/script.js"></script>
 </body>
+
 </html>
