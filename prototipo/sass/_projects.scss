@@ -1,0 +1,19 @@
+.projects {
+    margin-left: 80px;
+    padding-top: 30px;
+  }
+.wrapper__projects{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.project__container{
+    margin-left: 30px;
+}
+.project__title{
+    text-transform: uppercase;
+}
+.project__link{
+    color: #3e1e0e;
+    border-bottom: 3px solid #3e1e0e;
+}

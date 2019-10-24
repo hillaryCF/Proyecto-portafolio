@@ -1,0 +1,23 @@
+.menu {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  left: 0px;
+  position: fixed;
+  right: 0px;
+  padding-top: 20px;
+  background: #f3c602;
+  z-index: 200;
+}
+
+li:hover a {
+  color: #d1af2a;
+}
+.menu__list-link {
+  color: #281208;
+  text-transform: uppercase;
+}
+.menu__list {
+  display: inline;
+  margin-right: 15px;
+}

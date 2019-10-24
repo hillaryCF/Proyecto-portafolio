@@ -1,0 +1,30 @@
+
+.aboutme {
+    max-width: 40%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 100px;
+    margin-bottom: 70px;
+  }
+  .aboutme__title {
+    color: #3e1e0e;
+    text-align: center;
+    font-size: 53px;
+    margin: 0;
+  }
+
+  .aboutme__title--size{
+    font-size: 26px;
+  }
+  .aboutme__paragraph {
+    color: #6d9869;
+  }
+  
+
+  .photo {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 273px;
+    margin-top: -448px;
+  }  

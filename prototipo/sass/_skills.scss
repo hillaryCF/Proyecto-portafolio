@@ -1,0 +1,44 @@
+.skills {
+  margin-left: 80px;
+  padding-top: 30px;
+}
+
+.skills__title {
+  text-transform: uppercase;
+}
+
+.skill__title {
+  color: #3e1e0e;
+  padding-top: 100px;
+  margin-bottom: 0;
+  font-size: 32px;
+}
+
+.first-skill:hover {
+  .skill__title {
+    padding-top: 0;
+  }
+}
+
+.skill__info-list {
+  display: none;
+}
+
+.first-skill:hover {
+  background: #f7f7f7;
+  .skill__info-list {
+    display: inline;
+  }
+}
+
+.first-skill {
+  width: 30%;
+  height: 300px;
+  background: #6d9869;
+  margin-left: 36px;
+  text-align: center;
+  float: left;
+  margin-bottom: 50px;
+  margin-left: 36px;
+  transition: 1s;
+}
