@@ -7,6 +7,10 @@ body {
   margin: 0;
 }
 
+li {
+  list-style: none;
+}
+
 .clearfix::after {
   content: "";
   clear: both;
@@ -16,8 +20,4 @@ body {
 .date-git {
   border-bottom: 1px solid #d1af2a;
   padding-bottom: 25px;
-}
-
-li {
-  list-style: none;
 }
